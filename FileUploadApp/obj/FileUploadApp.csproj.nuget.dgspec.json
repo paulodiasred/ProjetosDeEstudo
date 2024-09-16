@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj": {}
+    "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj": {}
   },
   "projects": {
-    "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj": {
+    "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj",
+        "projectUniqueName": "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj",
         "projectName": "FileUploadApp",
-        "projectPath": "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj",
+        "projectPath": "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp.csproj",
         "packagesPath": "C:\\Users\\Red\\.nuget\\packages\\",
-        "outputPath": "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\obj\\",
+        "outputPath": "C:\\bootcamp-Pottencial-.NET-Developer\\ProjetosInicantes\\FileUploadApp\\FileUploadApp\\FileUploadApp\\FileUploadApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
