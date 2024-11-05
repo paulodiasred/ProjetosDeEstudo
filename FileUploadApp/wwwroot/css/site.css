@@ -1,100 +1,172 @@
-/* site.css */
-
-/* Definições de estilo para o header */
-header {
-    background-color: #343a40;
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* Define primary colors */
+:root {
+    --primary-color: #333; /* Dark color for header */
+    --secondary-color: #555; /* For buttons and main sections */
+    --background-color: #f4f4f4; /* Light background for contrast */
+    --accent-color: #007bff; /* Optional accent color for links/buttons */
+    --text-color: #333; /* Main text color */
 }
 
-header h1 {
-    color: white; 
-    font-size: 2.5em;
+body, html {
     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
+/* Main Section */
+main {
+    flex: 1; /* Faz com que o main expanda para ocupar o espaÃ§o restante */
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra mais suave e profunda */
+}
+
+main h1 {
+    font-size: 2.2em;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
-/* Estilos para os links de navegação */
-.navbar-nav .nav-item .nav-link {
-    color: #333;
-    padding: 0.5rem 1rem;
+main p {
+    font-size: 1.2em;
+    color: var(--secondary-color);
 }
 
-.navbar-nav .nav-item .nav-link:hover {
-    color: #007bff;
-    background-color: #e9ecef;
+.logotipo {
+    width: 200px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilos para o footer */
+/* Footer */
 footer {
-    background-color: #f8f9fa;
-    border-top: 1px solid #e1e5e8;
-    padding: 1rem 0;
+    background-color: #e8e8e8;
+    padding: 10px;
     text-align: center;
+    font-size: 0.9em;
+    color: var(--secondary-color);
+    margin-top: auto; /* Empurra o footer para o final da pÃ¡gina */
 }
 
-/* Estilos para a container principal */
-.container {
-    padding: 40px;
-    text-align: center;
-}
-
-/* Estilos para o botão de upload e lista */
-.button-container {
-    margin-top: 30px;
-}
-
-.buttons {
-    text-align: center; /* Alinha os botões ao centro */
-}
-
-a {
-    text-decoration: none;
-    color: #343a40;
+/* Button Styles */
+button {
+    background-color: var(--accent-color);
+    color: white;
     padding: 10px 20px;
+    border: none;
     border-radius: 5px;
-    margin: 10px;
-    font-size: 1.1em;
-    display: inline-block; /* Garantia que os botões fiquem lado a lado */
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
 }
 
-a.upload {
-    background-color: #28a745; /* Cor verde */
-    color:white;
+button:hover {
+    background-color: #c45f43; /* Cor mais escura do que o azul principal */
 }
 
-a.lista {
-    background-color: #007bff; /* Cor azul */
-    color:white;
-}
-
-a.upload:hover,
-a.lista:hover {
-    opacity: 0.9; /* Efeito ao passar o mouse */
-}
-
-/* Media queries para responsividade */
+/* Responsive Design */
 @media (max-width: 768px) {
-    a {
-        display: block; /* Botões empilhados em telas pequenas */
-        width: 100%; /* Ocupa a largura total em telas pequenas */
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    main {
+        padding: 30px 10px;
     }
 }
 
-@media (min-width: 769px) {
-    a {
-        display: inline-block; /* Botões lado a lado em telas grandes */
+.upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px 0;
+}
+
+.upload-area:hover {
+    background-color: #f0f0f0;
+} 
+
+/* .upload-area {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.upload-area::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 200%;
+    background: linear-gradient(180deg, #2b4449, #c45f43);
+    animation: animate 3s linear infinite;
+}
+.upload-area::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    inset: 5px;
+    border-radius: inherit;
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(0deg);
     }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+.file-upload-label {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-button, .upload-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+}
+
+.upload-button {
+    background-color: #2b4449;
+}
+
+label:hover {
+    background-color: #c45f43;
+}
+
+.navbar-img {
+    padding-right: 5px;
 }
