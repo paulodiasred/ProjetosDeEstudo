@@ -47,19 +47,7 @@ Controle de versão e colaboração utilizando Git e GitHub.
 
 ## 📂 Projetos
 
-### [Nome do Projeto 1](link-do-repositorio)
 
-- **Descrição**: Breve descrição do projeto.
-- **Tecnologias**: C#, .NET, ASP.NET, Entity Framework, SQL Server.
-- **Funcionalidades**: Listagem das principais funcionalidades do projeto.
-- **Como Rodar**: Instruções básicas para rodar o projeto localmente.
-
-### [Nome do Projeto 2](link-do-repositorio)
-
-- **Descrição**: Breve descrição do projeto.
-- **Tecnologias**: HTML, CSS, JavaScript, RESTful APIs.
-- **Funcionalidades**: Listagem das principais funcionalidades do projeto.
-- **Como Rodar**: Instruções básicas para rodar o projeto localmente.
 
 ---
 
@@ -69,22 +57,3 @@ Cada projeto possui um arquivo `README.md` com informações detalhadas sobre a 
 
 ---
 
-## 🛠️ Contribuições
-
-Sinta-se à vontade para contribuir com melhorias, correções ou sugestões! Para contribuir, siga estes passos:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua modificação (`git checkout -b minha-mudanca`).
-3. Faça suas alterações e commit (`git commit -am 'Adiciona nova funcionalidade'`).
-4. Envie para o repositório (`git push origin minha-mudanca`).
-5. Abra um Pull Request.
-
----
-
-## 📫 Contato
-
-Se você tiver perguntas ou quiser conversar sobre os projetos, sinta-se à vontade para me contactar através das redes sociais ou do e-mail: [pauloalberto13@gmail.com](mailto:pauloalberto13@gmail.com).
-
----
-
-**Obrigado por visitar meu repositório!**
